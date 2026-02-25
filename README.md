@@ -7,10 +7,6 @@ Cảm biến lửa hồng ngoại MKE-S04 IR Flame Sensor hỗ trợ điện áp
 
 ## Nguyên lý hoạt động
 
-Cảm biến hoạt động dựa trên đặc tính của mắt thu hồng ngoại IR: điện trở của mắt thu hồng ngoại IR thay đổi theo cường độ ánh sáng môi trường.
-- Khi ánh sáng mạnh: điện trở mắt thu hồng ngoại IR giảm.
-- Khi ánh sáng yếu: điện trở mắt thu hồng ngoại IR tăng.
-
 Cảm biến hoạt động dựa trên đặc tính của mắt thu hồng ngoại IR: độ dẫn điện của phần tử thu thay đổi theo cường độ bức xạ hồng ngoại từ môi trường (đặc biệt mạnh khi có ngọn lửa).
 - Khi cường độ hồng ngoại mạnh: điện trở tương đương của cảm biến giảm.
 - Khi cường độ hồng ngoại yếu: điện trở tương đương tăng.
@@ -107,6 +103,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_2.png)
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_3.png)
+
 
 
 
