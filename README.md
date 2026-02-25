@@ -1,5 +1,5 @@
 # Cảm biến lửa hồng ngoại MKE-S04 IR Flame Sensor
-MKE-S04 IR Flame Sensor là module cảm biến phát hiện lửa sử dụng mắt thu hồng ngoại (Infrared – IR) để đo cường độ bức xạ hồng ngoại phát ra từ ngọn lửa. Cảm biến chuyển đổi sự thay đổi cường độ hồng ngoại thành tín hiệu điện áp Analog tuyến tính, giúp các hệ thống vi điều khiển đọc và xử lý dữ liệu theo mức tín hiệu thực tế, thay vì chỉ nhận trạng thái bật/tắt (Digital) như nhiều loại cảm biến lửa phổ biến trên thị trường.
+MKE-S04 IR Flame Sensor là cảm biến phát hiện lửa sử dụng mắt thu hồng ngoại (Infrared – IR) để đo cường độ bức xạ hồng ngoại phát ra từ ngọn lửa. Cảm biến chuyển đổi sự thay đổi cường độ hồng ngoại thành tín hiệu điện áp Analog tuyến tính, giúp các hệ thống vi điều khiển đọc và xử lý dữ liệu theo mức tín hiệu thực tế, thay vì chỉ nhận trạng thái bật/tắt (Digital) như nhiều loại cảm biến lửa phổ biến trên thị trường.
 
 Sản phẩm phù hợp cho nhiều ứng dụng như robot chữa cháy, hệ thống cảnh báo cháy, thiết bị IoT và các dự án STEM. Mạch được thiết kế tối ưu nhằm tăng độ ổn định tín hiệu và khả năng chống nhiễu, giúp kết quả đo chính xác và tin cậy trong cả môi trường học tập lẫn ứng dụng thực tế.
 
@@ -103,6 +103,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_2.png)
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_3.png)
+
 
 
 
