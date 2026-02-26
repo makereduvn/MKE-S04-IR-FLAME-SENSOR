@@ -66,7 +66,7 @@ Diễn giải các thông số:
 - Nhận tín hiệu của cảm biến qua chân S (SIGNAL).
 <table><thead>
   <tr>
-    <th>SIG (Analog Out)</th>
+    <th>SIGNAL (Analog Out)</th>
     <th>Trạng thái</th>
   </tr></thead>
 <tbody>
@@ -103,6 +103,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_2.png)
 ![MKE-S04 IR_FLAME](/extras/MKE-S04_3.png)
+
 
 
 
