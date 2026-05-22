@@ -82,7 +82,7 @@ Diễn giải các thông số:
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_S04_IR_FLAME_XXX"** tại **File / Examples / MKE_ONE / Module / MKE_S04_IR_FLAME**
+- Mở chương trình mẫu tại **File / Examples / MKE_ONE / Sensor / MKE_S04_IR_FLAME**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân S (SIGNAL) của sensor với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
