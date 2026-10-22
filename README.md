@@ -61,8 +61,8 @@ Diễn giải các thông số:
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân - và +.
-- Nhận tín hiệu của cảm biến qua chân S (SIGNAL).
+- Cấp nguồn 5VDC cho mạch qua hai chân `-` và `+`.
+- Nhận tín hiệu của cảm biến qua chân `S` (SIGNAL).
 <table><thead>
   <tr>
     <th>SIGNAL (Analog Out)</th>
@@ -83,7 +83,7 @@ Diễn giải các thông số:
 ### Hướng dẫn sử dụng với Arduino / ESP32
 - Cảm biến sử dụng tín hiệu đầu ra Analog đơn giản không cần cài đặt bộ thư viện.
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
-- Cấp nguồn 5VDC cho mạch, kết nối chân S (SIGNAL) của sensor với chân điều khiển được khai báo trong chương trình.
+- Cấp nguồn 5VDC cho mạch, kết nối chân `S` (SIGNAL) của sensor với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 #### Chương trình mẫu cho Arduino Uno:
