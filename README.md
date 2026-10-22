@@ -80,12 +80,79 @@ Diễn giải các thông số:
 </tbody>
 </table>
 
-### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
-- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu tại **File / Examples / MKE_ONE / Sensor / MKE_S04_IR_FLAME**
+### Hướng dẫn sử dụng với Arduino / ESP32
+- Cảm biến sử dụng tín hiệu đầu ra Analog đơn giản không cần cài đặt bộ thư viện.
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân S (SIGNAL) của sensor với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
+
+#### Chương trình mẫu cho Arduino Uno:
+```ino
+// Đặt tên cho chân kết nối cảm biến
+// These constants won't change. They're used to give names to the pins used:
+const int analogInPin = A1;  // Analog input pin that the sensor is attached to
+
+// Tạo biến số nguyên lưu giá trị cảm biến
+// value read from the sensor
+int sensorValue = 0;  
+
+void setup()
+{
+  // Khởi động kết nối Serial UART ở tốc độ 115200 để truyền dữ liệu lên máy tính.
+  // Start the Serial UART connection at 115200 to transfer data to the computer.
+  Serial.begin(115200);
+}
+
+void loop()
+{
+  // Đọc giá trị cảm biến
+  // read the analog in value:
+  sensorValue = analogRead(analogInPin);
+
+  // Hiển thị giá trị đo được của cảm biến lên máy tính.
+  // Show the sensor value on Arduno Serial Monitor
+  Serial.print("Value: ");
+  Serial.println(sensorValue);
+  
+  // Chờ 500ms
+  // Wait 500ms
+  delay(500);
+}
+```
+
+#### Chương trình mẫu cho ESP32:
+```ino
+// Đặt tên cho chân kết nối cảm biến
+// These constants won't change. They're used to give names to the pins used:
+const int analogInPin = 34;  // IO34
+
+// Tạo biến số nguyên lưu giá trị cảm biến
+// value read from the sensor
+int sensorValue = 0;  
+
+void setup()
+{
+  // Khởi động kết nối Serial UART ở tốc độ 115200 để truyền dữ liệu lên máy tính.
+  // Start the Serial UART connection at 115200 to transfer data to the computer.
+  Serial.begin(115200);
+}
+
+void loop()
+{
+  // Đọc giá trị cảm biến
+  // read the analog in value:
+  sensorValue = analogRead(analogInPin);
+
+  // Hiển thị giá trị đo được của cảm biến lên máy tính.
+  // Show the sensor value on Arduno Serial Monitor
+  Serial.print("Value: ");
+  Serial.println(sensorValue);
+  
+  // Chờ 500ms
+  // Wait 500ms
+  delay(500);
+}
+```
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
